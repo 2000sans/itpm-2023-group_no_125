@@ -1,0 +1,57 @@
+
+body{
+    /* background-image: url("../images/cat.jpg"); */
+    background-attachment: fixed;
+    background-size:cover;
+    
+} 
+
+/* .top{
+    background-image: url("../images/radd.jpg");
+    background-attachment: fixed;
+    background-size:cover;
+    height: 100%;
+
+}   */
+
+
+.RDdetailsbox{
+   
+    border: 2px solid black;
+}
+
+ /* .max1{
+    background-color: green;
+    width: 50%;
+    height: 20px;
+  
+}  */
+ .login1{
+    width: 30%;
+    height: 40px;  
+} 
+
+.cet1{
+   
+    margin-left: 0%;
+    border: 1px solid rgb(226, 226, 226);
+    width: 480px;
+    height: 360px;
+    /* background-image: url("../images/ceti1.png"); */
+    background-size: 480px;
+    /* background-color: white; */
+} 
+
+.rdbuttn{
+    width: 0px;
+    height: 0px;
+}  
+
+.btnview{
+    height: 45px;
+    width :300px;
+} 
+
+
+
+
