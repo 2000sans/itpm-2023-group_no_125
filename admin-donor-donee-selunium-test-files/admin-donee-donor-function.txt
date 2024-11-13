@@ -1,0 +1,223 @@
+{
+  "id": "f7255174-634b-49db-b4e7-2b3d532069f1",
+  "version": "2.0",
+  "name": "itpm-project",
+  "url": "http://localhost:3006",
+  "tests": [{
+    "id": "4f8554f5-1e90-421f-96f5-034caad5110f",
+    "name": "admin-donee-donor-function",
+    "commands": [{
+      "id": "e512fe12-06ee-4da3-b7a7-2d3106ee73ac",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cce78702-9662-4530-ad47-9094606c2677",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dc98b992-4e9b-49a2-89d1-449ca8ede61b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[2]/table/tbody/tr/td[12]/a/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Action')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc6155c0-1a48-49e7-94f0-e22cf21934e8",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[2]/table/tbody/tr/td[12]/a/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Action')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "29c7bd4d-2d95-4a94-9d63-94756fe171df",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-group:nth-child(7) > .form-control",
+      "targets": [
+        ["css=.form-group:nth-child(7) > .form-control", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div[2]/div/div/form/div[7]/input", "xpath:idRelative"],
+        ["xpath=//div[7]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4bae5f4f-819c-4651-8893-e60f64a585e5",
+      "comment": "",
+      "command": "type",
+      "target": "css=.form-group:nth-child(7) > .form-control",
+      "targets": [
+        ["css=.form-group:nth-child(7) > .form-control", "css:finder"],
+        ["xpath=//input[@value='your donation is accepted for good reason']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div[2]/div/div/form/div[7]/input", "xpath:idRelative"],
+        ["xpath=//div[7]/input", "xpath:position"]
+      ],
+      "value": "your donation is accepted for good reason"
+    }, {
+      "id": "0abc8476-947c-4b02-9b95-0df4c00e96a7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-btn",
+      "targets": [
+        ["css=.btn-btn", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div[2]/div/div/form/div[8]/a/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Accept')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dd70c530-012b-4ed5-93b8-ffbfb65724e4",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.btn-btn",
+      "targets": [
+        ["css=.btn-btn", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div[2]/div/div/form/div[8]/a/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Accept')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "89a4c4f4-60c9-4d54-9c86-37d7d6d4ef39",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Donee",
+      "targets": [
+        ["linkText=Donee", "linkText"],
+        ["css=a:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Donee')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/nav/div/span/h4/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/Donee/')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Donee')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6fe1a91c-ee7f-45a6-87c1-1408945af7ba",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[2]/table/tbody/tr/td[12]/a/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Action')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "524df417-12a0-47f9-8330-8b4af06e3e07",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[2]/table/tbody/tr/td[12]/a/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Action')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "31db2e4f-1233-4424-bf7f-406bff3dd0e9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-group:nth-child(7) > .form-control",
+      "targets": [
+        ["css=.form-group:nth-child(7) > .form-control", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div[2]/div/div/form/div[7]/input", "xpath:idRelative"],
+        ["xpath=//div[7]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "feb016cd-7058-4cea-b573-72f4b43f95bd",
+      "comment": "",
+      "command": "type",
+      "target": "css=.form-group:nth-child(7) > .form-control",
+      "targets": [
+        ["css=.form-group:nth-child(7) > .form-control", "css:finder"],
+        ["xpath=//input[@value='your donation cannot be accepted']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div[2]/div/div/form/div[7]/input", "xpath:idRelative"],
+        ["xpath=//div[7]/input", "xpath:position"]
+      ],
+      "value": "your donation cannot be accepted"
+    }, {
+      "id": "fef01d35-a5ba-4bb9-9fbf-89b4327972b9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-danger",
+      "targets": [
+        ["css=.btn-danger", "css:finder"],
+        ["xpath=//input[@value='Reject']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div[2]/div/div/form/div[9]/input", "xpath:idRelative"],
+        ["xpath=//div[9]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9c0e6153-1885-4b89-8c53-8a4cc111528e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.btn-danger",
+      "targets": [
+        ["css=.btn-danger", "css:finder"],
+        ["xpath=//input[@value='Reject']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div[2]/div/div/form/div[9]/input", "xpath:idRelative"],
+        ["xpath=//div[9]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ef23f6a0-ffe6-43cc-bc70-3a17af343a8d",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.btn-danger",
+      "targets": [
+        ["css=.btn-danger", "css:finder"],
+        ["xpath=//input[@value='Reject']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div[2]/div/div/form/div[9]/input", "xpath:idRelative"],
+        ["xpath=//div[9]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a20f0116-2486-44c9-a534-98e4f64155fc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.swal-button",
+      "targets": [
+        ["css=.swal-button", "css:finder"],
+        ["xpath=//div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Okay!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "767aaccf-a220-4de5-9d23-3410e3f3c59e",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["4f8554f5-1e90-421f-96f5-034caad5110f"]
+  }],
+  "urls": ["http://localhost:3006/"],
+  "plugins": []
+}
