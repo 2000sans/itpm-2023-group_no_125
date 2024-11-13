@@ -1,38 +1,19 @@
-const mongoose = require('mongoose');
-const Schema = mongoose.Schema;
+const mongoose = require("mongoose");
 
-const userSchemea = new Schema({
-    user_id: {
-        type: String,
-        required: true
-    },
-     user_name: {
-        type: String,
-        required: true
-    },
-    email: {
-        type: String,
-        required: true
-    },
-    contact: {
-        type: String,
-        required: true
-    },
-    nic_number: {
-        type: String,
-        required: true
-    },
-    school: {
-        type: String,
-        required: true
-    },
-    password: {
-        type: String,
-        required: true
-    },
+require("dotenv").config();
 
-
+const userSchema = new mongoose.Schema({
+  name: { type: String, required: true, minlength: 3, maxlength: 30 },
+  email: {
+    type: String,
+    required: true,
+    minlength: 3,
+    maxlength: 200,
+    unique: true,
+  },
+  password: { type: String, required: true, minlength: 3, maxlength: 1024 },
 });
-const User = mongoose.model("User", userSchemea);
-module.exports = User;
 
+const User = mongoose.model("User", userSchema);
+
+exports.User = User;
